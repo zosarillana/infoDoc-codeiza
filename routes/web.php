@@ -6,8 +6,11 @@ Route::get('/', function () {
     return view('user.dashboard');
 });
 
-// Dashboard Routes
+// Login Routes
 require __DIR__ . '/web/login/login.php';
 
-// Dashboard Routes
+// Register Routes
 require __DIR__ . '/web/register/register.php';
+
+// User Routes
+require __DIR__ . '/web/user/user.php';

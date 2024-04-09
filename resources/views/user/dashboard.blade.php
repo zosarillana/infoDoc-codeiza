@@ -7,12 +7,15 @@
     @vite('resources/css/app.css')
 
 </head>
-@include('partials.header')
+@include('partials.navbar')
 
 <body>
     <div class="p-5 m-10">
 
         <div class="m-10">
+            <div>
+                <h3 class="pb-5 text-white text-xl font-bold">My Documents</h3>
+            </div>
             <div class="overflow-x-auto rounded-md">
                 <table class="table table-lg border-none">
                     <!-- head -->
@@ -57,8 +60,6 @@
                     </tbody>
                 </table>
             </div>
-
-
         </div>
     </div>
 </body>

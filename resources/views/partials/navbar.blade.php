@@ -4,15 +4,16 @@
     </div>
     <div class="flex-none">
         <ul class="text-gray-50 font-bold menu menu-horizontal px-1">
-            <li><a>My Document</a></li>
-            <li><a>Upload Document</a></li>
+            <li><a href="{{ route('user.dashboard') }}">My Document</a></li>
+            <li><a href="{{ route('user.upload') }}"">Upload Document</a></li>
             <li>
                 <details>
                     <summary>
                         Options
                     </summary>
-                    <ul class="text-gray-50 font-bold  p-2 bg-base-300 rounded-t-none">
-                        <li><a>Profile</a></li>
+                    <ul class="text-gray-50
+                    font-bold p-2 bg-base-300 rounded-t-none">
+                        <li><a href="{{ route('user.profile') }}" ">Profile</a></li>
                         <li><a>Logout</a></li>
                     </ul>
                 </details>

@@ -28,7 +28,7 @@
                 <div class="grid place-items-center w-full h-full">
                     <div class="max-w-xl w-full pt-5 pb-10">
                         <div
-                            class="bg-gray-50 rounded-md shadow dark:border md:mt-0 sm:max-w-xl xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+                            class="bg-gray-50 rounded-md shadow dark:border md:mt-0 sm:max-w-xl xl:p-0 dark:bg-gray-800 dark:border-gray-800">
                             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                                 <h1
                                     class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-1x1 dark:text-white">
@@ -79,7 +79,7 @@
                                             ID</label>
                                         <input type="student_id" name="student_id" id="student_id"
                                             class="bg-white border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                            placeholder="name@gmail.com" required="">
+                                            placeholder="student id" required="">
                                     </div>
 
                                     <div class="grid grid-cols-2 gap-2">
@@ -130,9 +130,7 @@
                             </div>
                         </div>
                     </div>
-
             </section>
-
         </div>
 </body>
 
