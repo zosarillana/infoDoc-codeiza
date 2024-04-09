@@ -118,7 +118,9 @@
                                                 required="">
                                         </div>
                                     </div>
-                                    <button class="btn btn-block btn-primary">Sign up</button>
+                                    <button
+                                        class="btn btn-block border-none text-gray-50 bg-green-500 hover:bg-green-800">Sign
+                                        up</button>
                                     <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                                         Already have an account? <a href="{{ route('login.index') }}"
                                             class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login

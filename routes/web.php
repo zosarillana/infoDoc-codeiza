@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('login.index');
+    return view('user.dashboard');
 });
 
 // Dashboard Routes
