@@ -6,7 +6,7 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: ["dark"],
+    extend: ["light, dracula"],
   },
   plugins: [require("daisyui")],
 }
