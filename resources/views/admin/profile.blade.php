@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 
 </head>
-@include('partials.navbar')
+@include('partials.navbar_admin')
 
 <body>
     <div class="p-5 m-2">
@@ -19,7 +19,7 @@
                     <div>
                         <h3 class="pb-5 text-white text-xl font-bold">Profile</h3>
                     </div>
-                    @include('user.body.profile_body')
+                    @include('admin.body.profile_body')
                 </div>
             </div>
         </div>

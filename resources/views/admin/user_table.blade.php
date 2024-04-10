@@ -13,9 +13,9 @@
     <div class="p-5 m-10">
         <div class="m-10">
             <div>
-                <h3 class="pb-5 text-white text-xl font-bold">My Documents</h3>
+                <h3 class="pb-5 text-white text-xl font-bold">Users</h3>
             </div>
-            @include('admin.body.table')
+            @include('admin.body.user_table')
         </div>
     </div>
 </body>
