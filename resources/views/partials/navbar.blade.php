@@ -5,7 +5,7 @@
     <div class="flex-none">
         <ul class="text-gray-50 font-bold menu menu-horizontal px-1">
             <li><a href="{{ route('user.dashboard') }}">My Document</a></li>
-            <li><a href="{{ route('user.upload') }}"">Upload Document</a></li>
+            <li><a href="{{ route('user.upload') }}">Upload Document</a></li>
             <li>
                 <details>
                     <summary>
@@ -13,7 +13,7 @@
                     </summary>
                     <ul class="text-gray-50
                     font-bold p-2 bg-base-300 rounded-t-none">
-                        <li><a href="{{ route('user.profile') }}" ">Profile</a></li>
+                        <li><a href="{{ route('user.profile') }}">Profile</a></li>
                         <li><a>Logout</a></li>
                     </ul>
                 </details>
