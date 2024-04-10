@@ -2,8 +2,6 @@
      <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
 
          <form class="space-y-4 md:space-y-6" action="#">
-
-
              <div>
                  <label for="full_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Full
                      name</label>
